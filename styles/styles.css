@@ -58,6 +58,7 @@ body.appear {
 
 header {
   height: var(--nav-height);
+  background-color: red;
 }
 
 h1, h2, h3,
