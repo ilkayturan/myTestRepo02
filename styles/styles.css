@@ -14,7 +14,7 @@
   /* colors */
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
-  --background-color: #fff;
+  --background-color: #c47771;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
   --text-color: #000;
@@ -58,7 +58,6 @@ body.appear {
 
 header {
   height: var(--nav-height);
-  background-color: red;
 }
 
 h1, h2, h3,
@@ -165,6 +164,7 @@ main input:hover {
 
 main .section {
   padding: 64px 16px;
+  background-color: white;
 }
 
 main pre {
