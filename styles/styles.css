@@ -21,7 +21,7 @@
 
   /* fonts */
   --body-font-family: 'Barlow',sans-serif;
-  --heading-font-family: var(--body-font-family);
+  --heading-font-family: 'Barlow',sans-serif;
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
   /* body sizes */
@@ -41,13 +41,7 @@
   --nav-height: 98px;
 
 }
-@font-face {
-    font-family: "Barlow";
-    font-style: normal;
-    font-weight: 100;
-    src: url(https://fonts.gstatic.com/s/barlow/v12/7cHrv4kjgoGqM7E3b_s7wH8Dnzcj.woff2) format("woff2");
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
 body {
   font-size: var(--body-font-size-m);
   margin: 0;
