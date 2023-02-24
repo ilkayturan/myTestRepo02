@@ -41,11 +41,17 @@
   --nav-height: 98px;
 
 }
+@font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/barlow/v12/7cHrv4kjgoGqM7E3b_s7wH8Dnzcj.woff2) format("woff2");
+}
 
 body {
   font-size: var(--body-font-size-m);
   margin: 0;
-  font-family: var(--body-font-family);
+  font-family: "Barlow" ,sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
