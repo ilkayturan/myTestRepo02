@@ -21,7 +21,7 @@
 
   /* fonts */
   --body-font-family: 'Barlow',sans-serif;
-  --heading-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --heading-font-family: 'Barlow',sans-serif;
   --fixed-font-family: 'Barlow',sans-serif;
 
   /* body sizes */
