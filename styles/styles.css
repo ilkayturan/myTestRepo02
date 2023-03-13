@@ -114,7 +114,7 @@ a:any-link {
 
 a:hover {
   text-decoration: underline;
-  color: var(--link-hover-color);
+  color: var(--migraine-core-primary-indigo);
   border-bottom: 2px solid var(--migraine-core-neutrals-black) !important;
   padding-bottom: 6px;
 }
