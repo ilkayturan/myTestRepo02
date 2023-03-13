@@ -1543,7 +1543,6 @@ h1 {
     font-family: var(--migraine-core-desktop-xl-h1-font-family);
     font-size: var(--migraine-core-desktop-xl-h1-font-size);
     font-weight: var(--migraine-core-desktop-xl-h1-font-weight);
-    line-height: 0;
 }
 h2 {
     font-family: var(--migraine-core-desktop-xl-h2-font-family);
