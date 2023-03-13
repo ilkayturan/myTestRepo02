@@ -1,0 +1,179 @@
+:root {
+  --migraine-core-neutrals-black: #000000;
+  --migraine-core-neutrals-white: #ffffff;
+  --migraine-core-primary-peony: #c47771;
+  --migraine-core-primary-sunrise: #deba6a;
+  --migraine-core-primary-indigo: #18263b;
+  --migraine-core-secondary-ivory: #f5f3e9;
+  --migraine-core-secondary-blush: #b7948f;
+  --migraine-core-secondary-ash: #767a7c;
+  --migraine-core-secondary-cognac: #985854;
+  --migraine-core-utility-cta: #cb7d77;
+  --migraine-core-desktop-xl-h1-font-family: "Barlow Condensed", sans-serif;
+  --migraine-core-desktop-xl-h1-font-size: 72px;
+  --migraine-core-desktop-xl-h1-font-weight: 300;
+  --migraine-core-desktop-xl-h1-line-height: 70px;
+  --migraine-core-desktop-xl-h2-font-family: "Barlow Condensed", sans-serif;
+  --migraine-core-desktop-xl-h2-font-size: 52px;
+  --migraine-core-desktop-xl-h2-font-weight: 400;
+  --migraine-core-desktop-xl-h2-line-height: 50px;
+  --migraine-core-desktop-xl-h3-font-family: "Barlow Condensed", sans-serif;
+  --migraine-core-desktop-xl-h3-font-size: 32px;
+  --migraine-core-desktop-xl-h3-font-weight: 300;
+  --migraine-core-desktop-xl-h3-line-height: 40px;
+  --migraine-core-desktop-xl-h4-font-family: "Barlow Condensed", sans-serif;
+  --migraine-core-desktop-xl-h4-font-size: 24px;
+  --migraine-core-desktop-xl-h4-font-weight: 400;
+  --migraine-core-desktop-xl-h4-line-height: 28px;
+  --migraine-core-desktop-xl-h5-font-family: "Barlow", sans-serif;
+  --migraine-core-desktop-xl-h5-font-size: 18px;
+  --migraine-core-desktop-xl-h5-font-weight: 500;
+  --migraine-core-desktop-xl-h5-line-height: 28px;
+  --migraine-core-desktop-xl-h6-font-family: "Montserrat", sans-serif;
+  --migraine-core-desktop-xl-h6-font-size: 16px;
+  --migraine-core-desktop-xl-h6-font-weight: 400;
+  --migraine-core-desktop-xl-h6-line-height: 24px;
+  --migraine-core-desktop-xl-p-font-family: "Montserrat", sans-serif;
+  --migraine-core-desktop-xl-p-font-size: 16px;
+  --migraine-core-desktop-xl-p-font-weight: 500;
+  --migraine-core-desktop-xl-p-line-height: 24px;
+  --migraine-core-desktop-xl-t7-font-family: "Montserrat", sans-serif;
+  --migraine-core-desktop-xl-t7-font-size: 14px;
+  --migraine-core-desktop-xl-t7-font-weight: 500;
+  --migraine-core-desktop-xl-t7-line-height: 20px;
+  --migraine-core-desktop-xl-t8-font-family: "Montserrat", sans-serif;
+  --migraine-core-desktop-xl-t8-font-size: 12px;
+  --migraine-core-desktop-xl-t8-font-weight: 400;
+  --migraine-core-desktop-xl-t8-line-height: 16px;
+  --migraine-core-mobile-xs-h1-font-family: "Barlow Condensed", sans-serif;
+  --migraine-core-mobile-xs-h1-font-size: 40px;
+  --migraine-core-mobile-xs-h1-font-weight: 300;
+  --migraine-core-mobile-xs-h1-line-height: 40px;
+  --migraine-core-mobile-xs-h2-font-family: "Barlow Condensed", sans-serif;
+  --migraine-core-mobile-xs-h2-font-size: 36px;
+  --migraine-core-mobile-xs-h2-font-weight: 400;
+  --migraine-core-mobile-xs-h2-line-height: 40px;
+  --migraine-core-mobile-xs-h3-font-family: "Barlow Condensed", sans-serif;
+  --migraine-core-mobile-xs-h3-font-size: 24px;
+  --migraine-core-mobile-xs-h3-font-weight: 300;
+  --migraine-core-mobile-xs-h3-line-height: 24px;
+  --migraine-core-mobile-xs-h4-font-family: "Barlow", sans-serif;
+  --migraine-core-mobile-xs-h4-font-size: 20px;
+  --migraine-core-mobile-xs-h4-font-weight: 500;
+  --migraine-core-mobile-xs-h4-line-height: 28px;
+  --migraine-core-mobile-xs-h5-font-family: "Barlow", sans-serif;
+  --migraine-core-mobile-xs-h5-font-size: 18px;
+  --migraine-core-mobile-xs-h5-font-weight: 500;
+  --migraine-core-mobile-xs-h5-line-height: 28px;
+  --migraine-core-mobile-xs-h6-font-family: "Montserrat", sans-serif;
+  --migraine-core-mobile-xs-h6-font-size: 16px;
+  --migraine-core-mobile-xs-h6-font-weight: 400;
+  --migraine-core-mobile-xs-h6-line-height: 24px;
+  --migraine-core-mobile-xs-p-font-family: "Montserrat", sans-serif;
+  --migraine-core-mobile-xs-p-font-size: 16px;
+  --migraine-core-mobile-xs-p-font-weight: 500;
+  --migraine-core-mobile-xs-p-line-height: 24px;
+  --migraine-core-mobile-xs-t7-font-family: "Montserrat", sans-serif;
+  --migraine-core-mobile-xs-t7-font-size: 14px;
+  --migraine-core-mobile-xs-t7-font-weight: 500;
+  --migraine-core-mobile-xs-t7-line-height: 20px;
+  --migraine-core-mobile-xs-t8-font-family: "Montserrat", sans-serif;
+  --migraine-core-mobile-xs-t8-font-size: 12px;
+  --migraine-core-mobile-xs-t8-font-weight: 400;
+  --migraine-core-mobile-xs-t8-line-height: 16px;
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3_-gs6FospT4.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3_-gs6VospT4.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3_-gs51os.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+.cards-container {
+    background-color: var(--migraine-core-secondary-ivory);
+    padding-bottom: calc(24 * 1px)
+}
+
+#ik6b2 {
+    padding-top: calc(40 * 1px);
+    margin-top: calc(20 * 1px);
+    padding-bottom: calc(16 * 1px)
+}
+
+#inryj {
+    padding-bottom: calc(16 * 1px)
+}
+
+#i1xze {
+    padding-bottom: calc(30 * 1px)
+}
+
+#iuqon {
+    background-color: var(--migraine-core-secondary-blush);
+    padding-bottom: calc(40 * 1px);
+    padding-top: calc(40 * 1px)
+}
+
+#i2zrz {
+    margin-bottom: calc(16 * 1px)
+}
+
+#im9bg {
+    margin-bottom: calc(24 * 1px)
+}
+
+#i2bdk {
+    margin-bottom: calc(30 * 1px)
+}
+
+#i44zs {
+    margin-top: 0
+}
+
+#ipdggk {
+    padding-bottom: 0;
+    padding-top: 0
+}
+
+#i8e3u {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+#insxk {
+    margin-top: 0
+}
+
+#iuvzy {
+    margin-top: calc(1 * 1px);
+    display: block;
+    margin-bottom: 0
+}
