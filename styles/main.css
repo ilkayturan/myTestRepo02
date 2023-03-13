@@ -1558,6 +1558,12 @@ h3 {
     --helix-core-button-padding-left-property: 24px;
     --helix-core-button-border-radius--primary: 32px;
     --helix-core-button-border-radius-primary--hover: 32px;
+    justify-content: center;
+}
+a.button.secondary, button.secondary {
+    background-color: var(--migraine-core-utility-cta);
+    border: 1px solid currentcolor;
+    color: var(--text-color);
 }
 
 #ik6b2 {
