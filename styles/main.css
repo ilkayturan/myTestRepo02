@@ -126,9 +126,10 @@
     border: 2px solid rgb(241, 239, 255);
     padding: 48px 0px;
     position: relative;
+    background-color:var(--migraine-core-secondary-cognac);
 }
 .migraine-core-media-cards.migraine-core-media-cards--secondary-cognac {
-    background-color: var(--migraine-core-secondary-cognac);
+    background-color: var(--migraine-core-primary-sunrise);
 }
 
 .migraine-core-media-cards {
