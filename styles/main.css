@@ -1528,6 +1528,17 @@
     position: relative;
     background-color: var(--migraine-core-primary-sunrise);
 }
+.cards a.button.secondary, button.secondary {
+    background-color: red;
+    border: 1px solid currentcolor;
+    color: var(--text-color);
+    font-family: var(--migraine-core-desktop-xl-h5-font-family);
+    font-size: var(--migraine-core-desktop-xl-h5-font-size);
+    font-weight: var(--migraine-core-desktop-xl-h5-font-weight);
+    line-height: var(--migraine-core-desktop-xl-h5-line-height);
+    padding: 12px 24px 12px 24px;
+    border-radius: 32px;
+}
 h1 {
     font-family: var(--migraine-core-desktop-xl-h1-font-family);
     font-size: var(--migraine-core-desktop-xl-h1-font-size);
