@@ -17,12 +17,11 @@ const LCP_BLOCKS = []; // add your LCP blocks to the list
 window.hlx.RUM_GENERATION = 'project-1'; // add your RUM generation information here
 
 function buildHeroBlock(main) {
-  const h6 = main.querySelector('h6');
   const picture = main.querySelector('picture');
   // eslint-disable-next-line no-bitwise
-  if (h6 && picture && (h6.compareDocumentPosition(picture) & Node.DOCUMENT_POSITION_PRECEDING)) {
+  if (picture && (Node.DOCUMENT_POSITION_PRECEDING)) {
     const section = document.createElement('div');
-    section.append(buildBlock('hero', { elems: [picture, h6] }));
+    section.append(buildBlock('hero', { elems: [picture] }));
     main.prepend(section);
   }
 }
