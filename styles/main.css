@@ -1565,7 +1565,7 @@ a.button.secondary, button.secondary {
     border-radius: 32px;
 }
 a.button:hover, a.button:focus, button:hover, button:focus {
-    background-color: var(--link-hover-color);
+    background-color: transparent;
     cursor: pointer;
 }
 
