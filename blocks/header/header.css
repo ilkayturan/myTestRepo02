@@ -33,7 +33,7 @@ header nav[aria-expanded=true] {
 .nav-tools a {
   background-color: var(--migraine-core-neutrals-black);
   border: 1px solid currentcolor;
-  color: var(--migraine-core-secondary-ivory);
+  color: var(--migraine-core-secondary-ivory)!important;;
   font-family: var(--migraine-core-desktop-xl-h5-font-family);
   font-size: var(--migraine-core-desktop-xl-h5-font-size);
   font-weight: var(--migraine-core-desktop-xl-h5-font-weight);
