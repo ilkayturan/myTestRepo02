@@ -121,6 +121,22 @@
     background-color: var(--migraine-core-secondary-blush);
     padding-bottom: calc(24 * 1px)
 }
+.cards > ul > li {
+    border-radius: 16px;
+    border: 2px solid rgb(241, 239, 255);
+    padding: 48px 0px;
+    position: relative;
+}
+.migraine-core-media-cards.migraine-core-media-cards--secondary-cognac {
+    background-color: var(--migraine-core-secondary-cognac);
+}
+
+.migraine-core-media-cards {
+    border-radius: 16px;
+    border: 2px solid rgb(241, 239, 255);
+    padding: 48px 0px;
+    position: relative;
+}
 
 #ik6b2 {
     padding-top: calc(40 * 1px);
