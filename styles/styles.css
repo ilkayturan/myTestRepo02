@@ -108,13 +108,15 @@ p, dl, ol, ul, pre, blockquote {
 }
 
 a:any-link {
-  color: var(--link-color);
+  color: var(--migraine-core-primary-indigo);
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
   color: var(--link-hover-color);
+  border-bottom: 2px solid var(--migraine-core-neutrals-black) !important;
+  padding-bottom: 6px;
 }
 
 code, pre, samp {
