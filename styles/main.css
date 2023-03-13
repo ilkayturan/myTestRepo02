@@ -1532,7 +1532,7 @@ h1 {
     font-family: var(--migraine-core-desktop-xl-h1-font-family);
     font-size: var(--migraine-core-desktop-xl-h1-font-size);
     font-weight: var(--migraine-core-desktop-xl-h1-font-weight);
-    line-height: var(--migraine-core-desktop-xl-h1-line-height);
+    line-height: 0;
 }
 h2 {
     font-family: var(--migraine-core-desktop-xl-h2-font-family);
@@ -1551,7 +1551,12 @@ h3 {
     font-size: var(--migraine-core-desktop-xl-h3-font-size);
     font-weight: var(--migraine-core-desktop-xl-h3-font-weight);
     line-height: var(--migraine-core-desktop-xl-h3-line-height);
-    letter-spacing: 0.25px;
+}
+h4 {
+    font-family: var(--migraine-core-desktop-xl-h4-font-family);
+    font-size: var(--migraine-core-desktop-xl-h4-font-size);
+    font-weight: var(--migraine-core-desktop-xl-h4-font-weight);
+    line-height: var(--migraine-core-desktop-xl-h4-line-height);
 }
 .button-container {
     display: flex;
