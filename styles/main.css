@@ -1548,6 +1548,17 @@ h3 {
     line-height: var(--migraine-core-desktop-xl-h3-line-height);
     letter-spacing: 0.25px;
 }
+.button-container {
+    display: flex;
+    --helix-core-button-width: var(--migraine-core-button-width, auto);
+    --helix-core-button-height: 48px;
+    --helix-core-button-padding-top-property: 12px;
+    --helix-core-button-padding-right-property: 24px;
+    --helix-core-button-padding-bottom-property: 12px;
+    --helix-core-button-padding-left-property: 24px;
+    --helix-core-button-border-radius--primary: 32px;
+    --helix-core-button-border-radius-primary--hover: 32px;
+}
 
 #ik6b2 {
     padding-top: calc(40 * 1px);
