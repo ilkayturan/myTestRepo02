@@ -7,7 +7,7 @@ import { expect } from '@esm-bundle/chai';
 document.body.innerHTML = await readFile({ path: '../../scripts/body.html' });
 
 describe('Hero block', () => {
-  it('Builds hero block from picture and h1', async () => {
+  it('Builds hero block from picture and h6', async () => {
     await import('../../../scripts/scripts.js');
     expect(document.querySelector('.hero')).to.exist;
   });
