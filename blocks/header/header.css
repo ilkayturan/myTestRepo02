@@ -30,6 +30,18 @@ header nav[aria-expanded=true] {
   min-height: 100vh;
 }
 
+.nav-tools a {
+  background-color: var(--migraine-core-utility-cta);
+  border: 1px solid currentcolor;
+  color: var(--text-color);
+  font-family: var(--migraine-core-desktop-xl-h5-font-family);
+  font-size: var(--migraine-core-desktop-xl-h5-font-size);
+  font-weight: var(--migraine-core-desktop-xl-h5-font-weight);
+  line-height: var(--migraine-core-desktop-xl-h5-line-height);
+  padding: 12px 24px 12px 24px;
+  border-radius: 32px;
+}
+
 @media (min-width: 600px) {
   header nav {
     padding: 0 2rem;
