@@ -248,6 +248,7 @@ main img {
   .section > div {
     max-width: 1100px;
     margin: auto;
+    text-align: center;
   }
 }
 
