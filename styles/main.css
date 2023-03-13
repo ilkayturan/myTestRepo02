@@ -1528,6 +1528,26 @@
     position: relative;
     background-color: var(--migraine-core-primary-sunrise);
 }
+h2 {
+    font-family: var(--migraine-core-desktop-xl-h2-font-family);
+    font-size: var(--migraine-core-desktop-xl-h2-font-size);
+    font-weight: var(--migraine-core-desktop-xl-h2-font-weight);
+    line-height: var(--migraine-core-desktop-xl-h2-line-height);
+    letter-spacing: 0.25px;
+}
+p {
+    font-family: var(--migraine-core-desktop-xl-p-font-family);
+    font-size: var(--migraine-core-desktop-xl-p-font-size);
+    font-weight: var(--migraine-core-desktop-xl-p-font-weight);
+    line-height: var(--migraine-core-desktop-xl-p-line-height);
+}
+h3 {
+    font-family: var(--migraine-core-desktop-xl-h3-font-family);
+    font-size: var(--migraine-core-desktop-xl-h3-font-size);
+    font-weight: var(--migraine-core-desktop-xl-h3-font-weight);
+    line-height: var(--migraine-core-desktop-xl-h3-line-height);
+    letter-spacing: 0.25px;
+}
 
 #ik6b2 {
     padding-top: calc(40 * 1px);
