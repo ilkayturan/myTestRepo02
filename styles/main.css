@@ -1561,7 +1561,6 @@ a.button.secondary, button.secondary {
     font-size: var(--migraine-core-desktop-xl-h5-font-size);
     font-weight: var(--migraine-core-desktop-xl-h5-font-weight);
     line-height: var(--migraine-core-desktop-xl-h5-line-height);
-    height: 48px;
     padding: 12px 24px 12px 24px;
     border-radius: 32px;
 }
