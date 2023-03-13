@@ -113,10 +113,11 @@ a:any-link {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--migraine-core-primary-indigo);
   border-bottom: 2px solid var(--migraine-core-neutrals-black) !important;
   padding-bottom: 6px;
+
 }
 
 code, pre, samp {
